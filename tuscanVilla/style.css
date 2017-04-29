@@ -1,0 +1,22 @@
+﻿body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.topMen{
+    background-color:rgb(71,78,93);
+}
+
+.logo a{
+    font-size:30px;
+}
+
+.whiteText a{
+    color:white;
+}
+
+.navChoice ul{
+    display:block;
+    position:absolute;
+    right:0px;
+    padding-right:0;
+}
