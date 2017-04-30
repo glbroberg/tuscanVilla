@@ -2,21 +2,109 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-.topMen{
-    background-color:rgb(71,78,93);
+.topMen {
+    background-color: rgb(71,78,93);
 }
 
-.logo a{
-    font-size:30px;
+.logo a {
+    font-size: 30px;
 }
 
-.whiteText a{
-    color:white;
+.textRight ul {
+    display: block;
+    position: absolute;
+    right: 0px;
+    padding-right: 0;
 }
 
-.navChoice ul{
-    display:block;
-    position:absolute;
-    right:0px;
-    padding-right:0;
+.whiteText a {
+    color: white;
+}
+
+button.navbar-toggle {
+    border: 1px solid #FFF6F0;
+}
+
+span.glyphicon {
+    color: #FFF6F0;
+}
+
+.jumbotron {
+    padding: 0;
+}
+
+.container {
+    padding: 0;
+    margin: 0;
+}
+
+.leftImg {
+    width: auto;
+    float: left;
+}
+
+.rightImg {
+    width: auto;
+    float: right;
+}
+
+header {
+    background-color: rgb(71,78,93);
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 0;
+}
+
+.thumbLeft {
+    display: block;
+    padding: 30px;
+}
+
+.thumbRight {
+    display: block;
+    padding: 30px;
+    background-color: rgb(71,78,93);
+    color: white;
+}
+
+.greyButton {
+    background: rgb(71,78,93);
+    border-color: rgb(71,78,93);
+}
+
+    .greyButton.btn .active {
+        background: rgb(71,78,93);
+    }
+
+.whiteButton {
+    background: white;
+    color: rgb(71,78,93);
+    border-color: rgb(71,78,93);
+}
+
+.amenHeader{
+    background-color: rgb(71,78,93);
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 0;
+}
+
+.gridSpace{
+    text-align:center;
+}
+
+.space1{
+
+}
+
+.space2{
+
+}
+
+.space3{
+
 }
