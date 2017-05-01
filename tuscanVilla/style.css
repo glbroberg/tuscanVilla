@@ -74,9 +74,9 @@ header {
     border-color: rgb(71,78,93);
 }
 
-    .greyButton.btn .active {
+.greyButton.btn .active {
         background: rgb(71,78,93);
-    }
+}
 
 .whiteButton {
     background: white;
@@ -84,27 +84,105 @@ header {
     border-color: rgb(71,78,93);
 }
 
-.amenHeader{
-    background-color: rgb(71,78,93);
-    color: white;
-    text-align: center;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    margin-top: 0;
+
+/* Amenities */
+.gridSpace {
+      padding-top:20px;
+      padding-bottom:20px;
 }
 
-.gridSpace{
+.textOverImgLeft{
+    display:block;
+    padding-right:0;
+    text-align:right;   
+}
+
+.textOverImgRight{
+    display:block;
+    padding-left:0;
+    text-align:left;   
+}
+
+.textOverImgCenter{
+    display:block;    
+    text-align:center;   
+}
+
+.textOverImgLeft h3 span{
+    position: absolute;
+    color: white;
+    background-color: rgba(50, 50, 50,0.7);
+    top:40%;
+    left:50%;
+    padding:20px;
+}
+.textOverImgRight h3 span{
+    position: absolute;
+    color: white;
+    background-color: rgba(50, 50, 50,0.7);
+    bottom:40%;
+    right:50%;
+    padding:20px;   
+}
+
+.textOverImgCenter h3 span{
+    position: absolute;
+    color: white;
+    background-color: rgba(50, 50, 50,0.7);
+    top:40%;
+    left:35%;
+    padding:20px;
+}
+.spaceText{
+    text-align:center;  
+}
+
+.textOverImgRight{
+    display:block;
+    padding-left:0;
+    text-align:left;   
+}
+
+/* Carousel Section*/
+.carousel-indicators li{   
+    border: 1px solid rgb(71,78,93);    
+}
+
+.carousel-indicators .active{
+    background-color: rgb(71,78,93);
+    border: 2px solid rgb(71,78,93);    
+}
+
+.carousel-inner{
+    padding-bottom:70px;      
+}
+
+.item2 {
     text-align:center;
 }
 
-.space1{
-
+/* Form Section */
+.formRow{
+    padding-top:50px;
+    padding-bottom:20px;
+}
+.infoCol{
+    padding-left:40px;
+    color:rgb(71,78,93);
 }
 
-.space2{
-
+.form-control{
+    width:75%;
 }
 
-.space3{
-
+textarea{
+    margin-top:10px;
 }
+
+/* Footer */
+ .footCont{
+     text-align:center;
+     background-color:rgb(71,78,93);
+     color:white;
+ }
+
