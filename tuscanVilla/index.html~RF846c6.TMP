@@ -334,10 +334,10 @@
     </div>
 
     <!-- Seventh Section - Footer -->
-    <footer class="footer ">
-        <div class="container-fluid footCont footSpace">
+    <footer class="footer">
+        <div class="container-fluid footCont">
             <p>
-                <a href="#home"><span class="glyphicon glyphicon-chevron-up"></span></a>                
+                <a href="#home"><span> class"glyphicon glyphicon-chevron-up"></span></a>                
             </p>
             
             <p>Create by Garrett Broberg<br />Late, Late Sunday Night/Monday Morning.</p>
